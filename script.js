@@ -54,10 +54,10 @@ const accordionData = [
 
 // Dados da Galeria (Carrossel)
 const galleryData = [
-    { image: 'https://images.unsplash.com/photo-1587307718953-9ac016fb2084?w=800&h=400&fit=crop', alt: 'Campo de batatas em flor', caption: 'Florescência da batata: beleza e produtividade' },
-    { image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=400&fit=crop', alt: 'Colheita manual de batatas', caption: 'Colheita manual: tradição e cuidado' },
-    { image: 'https://images.unsplash.com/photo-1587307718832-2c5cb2e0094d?w=800&h=400&fit=crop', alt: 'Batatas recém-colhidas', caption: 'Batatas orgânicas: sabor e sustentabilidade' },
-    { image: 'https://images.unsplash.com/photo-1587307719010-3e4b1d8e0fa5?w=800&h=400&fit=crop', alt: 'Sistema de irrigação sustentável', caption: 'Tecnologia a serviço da água' }
+    { image: 'https://pt.dreamstime.com/foto-de-stock-campos-da-batata-image73360961', alt: 'Campo de batatas em flor', caption: 'Florescência da batata: beleza e produtividade' },
+    { image: 'https://semcomplicar.com.br/campoenegocios/sistemas-de-colheita-de-batata-qual-escolher/', alt: 'Colheita manual de batatas', caption: 'Colheita manual: tradição e cuidado' },
+    { image: 'https://pt.vecteezy.com/foto/13619571-batatas-cruas-recem-escavadas-no-solo-de-um-campo-agricola-colheita-colheita-colheita-de-batata-vegetais-organicos-de-raiz-fresca-produtos-alimentares-agricolas-ecologicos-jardinagem-e-agricultura', alt: 'Batatas recém-colhidas', caption: 'Batatas orgânicas: sabor e sustentabilidade' },
+    { image: 'https://pt.vecteezy.com/foto/67598393-irrigacao-sistema-rega-batata-campo-dentro-agricola-panorama', alt: 'Sistema de irrigação sustentável', caption: 'Tecnologia a serviço da água' }
 ];
 
 // ============================================================
