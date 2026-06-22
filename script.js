@@ -54,10 +54,10 @@ const accordionData = [
 
 // Dados da Galeria (Carrossel)
 const galleryData = [
-    { image: 'https://pt.dreamstime.com/foto-de-stock-campos-da-batata-image73360961', alt: 'Campo de batatas em flor', caption: 'Florescência da batata: beleza e produtividade' },
-    { image: 'https://semcomplicar.com.br/campoenegocios/sistemas-de-colheita-de-batata-qual-escolher/', alt: 'Colheita manual de batatas', caption: 'Colheita manual: tradição e cuidado' },
-    { image: 'https://pt.vecteezy.com/foto/13619571-batatas-cruas-recem-escavadas-no-solo-de-um-campo-agricola-colheita-colheita-colheita-de-batata-vegetais-organicos-de-raiz-fresca-produtos-alimentares-agricolas-ecologicos-jardinagem-e-agricultura', alt: 'Batatas recém-colhidas', caption: 'Batatas orgânicas: sabor e sustentabilidade' },
-    { image: 'https://pt.vecteezy.com/foto/67598393-irrigacao-sistema-rega-batata-campo-dentro-agricola-panorama', alt: 'Sistema de irrigação sustentável', caption: 'Tecnologia a serviço da água' }
+    { image: 'https://thumbs.dreamstime.com/b/campos-da-batata-73360961.jpg', alt: 'Campo de batatas em flor', caption: 'Florescência da batata: beleza e produtividade' },
+    { image: 'https://semcomplicar.com.br/campoenegocios/wp-content/uploads/2017/12/Foto-02-A-colheita-manual-tem-sido-cada-vez-menor-entre-os-bataticultores-Cr%C3%A9dito-Ana-Maria-Diniz.jpg', alt: 'Colheita manual de batatas', caption: 'Colheita manual: tradição e cuidado' },
+    { image: 'hhttps://static.vecteezy.com/ti/fotos-gratis/p2/13619571-batatas-cruas-recem-escavadas-no-solo-de-um-campo-agricola-colheita-colheita-colheita-de-batata-vegetais-organicos-de-raiz-fresca-produtos-alimentares-agricolas-ecologicos-jardinagem-e-agricultura-foto.jpg', alt: 'Batatas recém-colhidas', caption: 'Batatas orgânicas: sabor e sustentabilidade' },
+    { image: 'https://irrigat.com.br/wp-content/uploads/2021/11/irrigacao-de-batata.png', alt: 'Sistema de irrigação sustentável', caption: 'Tecnologia a serviço da água' }
 ];
 
 // ============================================================
