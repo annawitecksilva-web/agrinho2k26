@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+    <title>Agrinho · Agro forte: futuro sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header role="banner" aria-label="Cabeçalho principal">
+        <div class="container header-grid">
+            <div class="logo">
+                <i class="fas fa-seedling" aria-hidden="true"></i>
+                <span>Agrinho</span>
+            </div>
+            <nav aria-label="Navegação principal">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#colheita">Colheita</a></li>
+                    <li><a href="#equilibrio">Equilíbrio</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                </ul>
+            </nav>
+            <div class="acessibilidade-toolbar" role="toolbar" aria-label="Ferramentas de acessibilidade">
+                <button id="aumentar-fonte" aria-label="Aumentar tamanho da fonte"><i class="fas fa-font"></i>+</button>
+                <button id="diminuir-fonte" aria-label="Diminuir tamanho da fonte"><i class="fas fa-font"></i>−</button>
+                <button id="alto-contraste" aria-label="Ativar/desativar alto contraste"><i class="fas fa-circle"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main role="main">
+        <!-- Seção Hero -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-content">
+                <h1 id="hero-title">Batata: <span>colheita que nutre</span><br>o futuro sustentável</h1>
+                <p>Equilíbrio entre produção agrícola e meio ambiente: o caminho para um agro forte.</p>
+                <a href="#colheita" class="btn-primary">Explorar <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" aria-labelledby="sobre-title" class="scroll-reveal">
+            <div class="container">
+                <h2 id="sobre-title">Sobre o Agrinho</h2>
+                <article>
+                    <p>O concurso Agrinho inspira jovens a repensar o campo. Com o tema <strong>"Agro forte: futuro sustentável"</strong>, celebramos a batata como símbolo de uma produção que respeita a terra, a água e a biodiversidade.</p>
+                    <p>Integrar tecnologia, conhecimento tradicional e práticas regenerativas é o segredo para colher hoje sem comprometer o amanhã.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção Colheita de Batatas -->
+        <section id="colheita" aria-labelledby="colheita-title" class="scroll-reveal">
+            <div class="container">
+                <h2 id="colheita-title">Colheita de Batatas</h2>
+                <p class="subtitulo">Práticas que equilibram produtividade e ecossistema</p>
+                <div id="cards-container" class="grid-cards" role="list">
+                    <!-- Renderizado via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Equilíbrio (Acordeão) -->
+        <section id="equilibrio" aria-labelledby="equilibrio-title" class="scroll-reveal">
+            <div class="container">
+                <h2 id="equilibrio-title">Equilíbrio entre produção e meio ambiente</h2>
+                <div class="accordion" id="accordion-container" role="tablist" aria-multiselectable="false">
+                    <!-- Renderizado via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Galeria (Carrossel) -->
+        <section id="galeria" aria-labelledby="galeria-title" class="scroll-reveal">
+            <div class="container">
+                <h2 id="galeria-title">Galeria do campo sustentável</h2>
+                <div class="carousel-wrapper">
+                    <div class="carousel" role="region" aria-label="Carrossel de imagens">
+                        <div class="carousel-track" id="carousel-track">
+                            <!-- Renderizado via JS -->
+                        </div>
+                        <button class="carousel-btn prev" aria-label="Slide anterior"><i class="fas fa-chevron-left"></i></button>
+                        <button class="carousel-btn next" aria-label="Próximo slide"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="carousel-indicators" id="carousel-indicators" role="tablist" aria-label="Indicadores de slide">
+                        <!-- Gerado via JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer role="contentinfo">
+        <div class="container">
+            <p>© 2026 Agrinho · Agro forte, futuro sustentável</p>
+            <p class="footer-small">Desenvolvido com ♥ e acessibilidade</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
